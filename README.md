@@ -1,5 +1,5 @@
 ## Intro
-This is just a super simple sample of using rabbitmq and .Net 6 with Dapr to handle a simple pubsub. Which can be used in distrubuted systems such as in a Microservies Architecture
+This is just a super simple sample of using rabbitmq and .Net 6 with Dapr to handle a simple pubsub. Which can be used in distrubuted systems such as in a Microservices Architecture
 
 ## Requirmenets
 * [Dapr](https://dapr.io/)
