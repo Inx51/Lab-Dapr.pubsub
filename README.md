@@ -19,7 +19,7 @@ A super simple test of pubsub using Dapr.
 How could we use Dapr to create a simple pub-sub system?
 
 ### Why?
-Using Dapr for pub-sub makes it easy to switch the underlying broker, whithout having to rewrite the "core applications/system",
+Using Dapr for pub-sub makes it easy to switch the underlying broker, without having to rewrite the "core applications/system",
 This also means that the developer doesn't have to know anything about the broker specifik API.
 Dapr has several other benefits as well, but they are beyond the scope of this laboration.
 
