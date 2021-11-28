@@ -50,7 +50,7 @@ dapr run -a pub --dapr-http-port 3500 -d ../components -- dotnet run
 ```
 
 ## Result
-Messages are published from the .Net Publish application, to the Dapr publish sidecar, and received/subscribed to by the Dapr subscribe sidecar which then forwards the messages to the .Net Sub application.
+Messages are published from the .Net Pub application, to the Dapr publish sidecar, and received/subscribed to by the Dapr subscribe sidecar which then forwards the messages to the .Net Sub application.
 
 ## Discussion
 Pubsub using Dapr allows us to focus more on the main concernes of the bussiness logic and less on the technicalities regarding the infrastructure of our application when runnings a distrubuted system. This benefits the developers greatly. The way Dapr de-couples the broker from our application also makes it very felxible for us to replace the broker if needed (for instance if the domain we are running our distrubuted system prefers to use a different broker then RabbitMQ, we can very easily adapt to that without having to rewrite any code of our "core system")
@@ -58,3 +58,4 @@ Pubsub using Dapr allows us to focus more on the main concernes of the bussiness
 ## References
 * [Dapr pubsub docs - https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)
 * [Dapr pubsub RabbitMQ component - https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-rabbitmq/](https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-rabbitmq/)
+* [Publish–subscribe (pubsub)](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
