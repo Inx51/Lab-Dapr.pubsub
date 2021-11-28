@@ -58,4 +58,4 @@ Pubsub using Dapr allows us to focus more on the main concernes of the bussiness
 ## References
 * [Dapr pubsub docs - https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview/)
 * [Dapr pubsub RabbitMQ component - https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-rabbitmq/](https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-rabbitmq/)
-* [Publish–subscribe (pubsub)](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+* [Publish–subscribe pattern (pubsub) - https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
