@@ -38,15 +38,15 @@ docker-compose up
 4. run (in a new terminal)
 
 ```ps
-cd Sub
-dapr run -a sub -p 5000 -d ..\components -- dotnet run --urls http://*:5000
+cd src/Sub
+dapr run -a sub -p 5000 -d ../../components -- dotnet run --urls http://*:5000
 ```
 
 5. run (in a new terminal)
 
 ```ps
-cd Pub
-dapr run -a pub --dapr-http-port 3500 -d ../components -- dotnet run
+cd src/Pub
+dapr run -a pub --dapr-http-port 3500 -d ../../components -- dotnet run
 ```
 
 ## Result
