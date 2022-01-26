@@ -30,19 +30,20 @@ Could be used when writing distributed systems (such as systems built on the pri
 1. Open a terminal
 2. navigate to the repo
 
+3. run (in a new terminal)
 ```ps
 #will setup a rabbitmq container
 docker-compose up
 ```
 
-3. run (in a new terminal)
+4. run (in a new terminal)
 
 ```ps
 cd src/Sub
 dapr run -a sub -p 5000 -d ../../components -- dotnet run --urls http://*:5000
 ```
 
-4. run (in a new terminal)
+5. run (in a new terminal)
 
 ```ps
 cd src/Pub
