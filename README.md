@@ -35,14 +35,14 @@ Could be used when writing distributed systems (such as systems built on the pri
 docker-compose up
 ```
 
-4. run (in a new terminal)
+3. run (in a new terminal)
 
 ```ps
 cd src/Sub
 dapr run -a sub -p 5000 -d ../../components -- dotnet run --urls http://*:5000
 ```
 
-5. run (in a new terminal)
+4. run (in a new terminal)
 
 ```ps
 cd src/Pub
